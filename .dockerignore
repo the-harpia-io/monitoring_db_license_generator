@@ -1,5 +1,0 @@
-# Ignore special folders
-venv/
-.git/
-.cache/
-__pycache__
