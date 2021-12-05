@@ -10,11 +10,11 @@ args = parser.parse_args()
 SECRET = 'gGt6HhfF@Mn%LpLe'
 
 if args.client is None:
-    print(f"Client name is not specified. Example: \"python3 create_licenses.py --client Client_name --days_to_expire 30\"")
+    print(f"Client name is not specified. Example: \"python create_licenses.py --client Client_name --days_to_expire 30\"")
     exit()
 
 if args.days_to_expire is None:
-    print(f"Days to expire is not specified. Example: \"python3 create_licenses.py --client Client_name --days_to_expire 30\"")
+    print(f"Days to expire is not specified. Example: \"python create_licenses.py --client Client_name --days_to_expire 30\"")
     exit()
 
 
